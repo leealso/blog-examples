@@ -102,17 +102,17 @@ namespace xUnitCustomDataAttribute.Test.Service
         /// <param name="type">Target type of the cast</param>
         private object CastParamValue(object value, Type type)
         {
-            // Cast reference types
-            if (value as JObject != null)
+            // Cast objects
+            if (value is JObject jObjectValue)
             {
-                return ((JObject)value).ToObject(type);
+                return jObjectValue.ToObject(type);
             }
-            // Cast arrays/list
-            else if (value as JArray != null)
+            // Cast arrays
+            else if (value is JArray jArrayValue)
             {
-                return ((JArray)value).ToObject(type);
+                return jArrayValue.ToObject(type);
             }
-            // Return value type
+            // No cast for value types
             return value;
         }
     }

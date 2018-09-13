@@ -1,0 +1,82 @@
+﻿{
+  "Student":[
+    [
+      {
+        "firstName": "Sidney",
+        "lastName": "Graham",
+        "age": 27
+      },
+      1
+    ],
+    [
+      {
+        "firstName": "Dane",
+        "lastName": "Gates",
+        "age": 34
+      },
+      0
+    ]
+  ],
+  "Group": [
+    [
+      [
+        {
+          "firstName": "Bethany",
+          "lastName": "Lawson",
+          "age": 29
+        },
+        {
+          "firstName": "Kayden",
+          "lastName": "Hamilton",
+          "age": 20
+        },
+        {
+          "firstName": "Ash",
+          "lastName": "Mason",
+          "age": 22
+        },
+        {
+          "firstName": "Alisha",
+          "lastName": "Richardson",
+          "age": 30
+        },
+        {
+          "firstName": "Erin",
+          "lastName": "Schneider",
+          "age": 50
+        },
+        {
+          "firstName": "Tyler",
+          "lastName": "Sandoval",
+          "age": 45
+        }
+      ],
+      3
+    ],
+    [
+      [
+        {
+          "firstName": "George",
+          "lastName": "Gibson",
+          "age": 21
+        },
+        {
+          "firstName": "Lindsay",
+          "lastName": "Blair",
+          "age": 28
+        },
+        {
+          "firstName": "George",
+          "lastName": "Gibson",
+          "age": 21
+        },
+        {
+          "firstName": "Lindsay",
+          "lastName": "Blair",
+          "age": 28
+        }
+      ],
+      2
+    ]
+  ]
+}
